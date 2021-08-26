@@ -354,7 +354,7 @@ console.log(result) // [1, 2, 3, 4, 5]
 
 ## reduce
 
-配列のすべての要素に対して、与えられた関数を実行し、その結果から新しい配列を生成する。  
+配列のすべての要素に対して、与えられた関数を実行し、その結果から単一の出力値を生成する。  
 元の配列を変更しない。  
 [MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
@@ -402,7 +402,7 @@ console.log(result) // 25
 
 ## reduceRight
 
-配列のすべての要素に対して、与えられた関数を実行し、その結果から新しい配列を生成する。  
+配列のすべての要素に対して、与えられた関数を実行し、その結果から単一の出力値を生成する。  
 `reduce` が左から右へ適用されるのに対し、 `reduceRight` は右から左へと適用される。  
 元の配列を変更しない。  
 [MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight)
